@@ -1,0 +1,235 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+.header{
+    font-family: 'Grey Qo';
+    font-size: 30px;
+}
+.header-contents{
+    background-color: rgb(59, 57, 57);
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.nav{
+    display: flex;
+    padding-right: 250px;
+    padding-top: 30px; 
+}
+.nav-contents{
+    padding-left: 30px;    
+}
+.nav-contents a{
+    text-decoration: none;
+    color:white;
+}
+.nav-contents a:hover{
+    color: rgb(192, 192, 46);
+    transition: 0.3s;
+}
+.meeting-button{
+    color: white;
+}
+.header-nav .meeting-button a{
+    text-decoration: none;
+    position: relative;
+    left: 150px;
+    color: white;
+    border: 2px;
+    border-style: double;
+    border-color: white;
+    padding: 10px 43px;
+}
+.header-nav .meeting-button a:hover{
+    background-color: white;
+    color: black;
+    transition: 0.9s;
+}
+.main-body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 50px;
+}
+.main-body-bg-image img{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    width: 100%;
+}
+.bg-image-description h1 {
+    position: absolute;
+    bottom: 350px;
+    left: 200px;
+    font-size: 60px;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 300px;
+}
+.bg-image-description p{
+    position: absolute;
+    bottom: 300px;
+    left: 350px;
+    font-size: 25px;
+    color: white;
+    font-family: 'Montserrat';
+}
+.description .para1{
+    font-size: 40px;
+    align-items: center;
+    width: 1300px;
+    padding-left: 320px;
+    margin-top: 100px;
+    padding-left: 250px;    
+}
+.description .para1 p{
+    font-size: 28px;
+    font-weight: 100;
+    font-family: 'Montserrat';
+    line-height: 1.7; 
+}
+.description .para2{
+    font-size: 40px;
+    align-items: center;
+    width: 1300px;
+    padding-left: 320px;
+    margin-top: 60px;
+    padding-left: 250px;    
+}
+.description .para2 p{
+    font-size: 28px;
+    font-weight: 100;
+    font-family: 'Montserrat';
+    line-height: 1.7; 
+}
+.img-passion{
+    position: relative;
+}
+.passion img{
+    width: 100%;
+    height: 500px;
+    margin-top: 70px;
+}
+.img-passion .passion-image-description h1{
+      position: absolute;
+      left: 360px;
+      bottom: 280px;
+      font-size: 80px;
+      color: white;
+      font-family: 'Montserrat';
+}
+.img-passion .passion-image-description p{
+    position: absolute;
+    left: 540px;
+    bottom: 200px;
+    font-size: 30px;
+    color: white;
+    font-weight: lighter;
+    font-family: 'Montserrat';
+
+}
+.spark-description .description-mains{
+    font-size: 40px;
+    align-items: center;
+    width: 1300px;
+    padding-left: 320px;
+    margin-top: 60px;
+    padding-left: 250px;
+    font-family: 'Montserrat';
+    font-size: 15px;
+    font-weight: lighter;
+    line-height: 1.6;    
+}
+.description-mains-image img{
+    margin-left: 350px;
+}
+.line-break hr{
+    border-style: inset;
+    border-width: 1px;
+    margin-right: 220px;
+    margin-left: 270px;
+}
+.working h2{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 45px;
+    font-weight:lighter;
+    font-family: 'Montserrat';
+}
+.working .learn h3{
+    margin-top: 25px;
+    text-align: center;
+    font-size: 25px;
+    font-weight:lighter;
+    font-family: 'Montserrat';
+}
+.working .learn p{
+    margin-top: 25px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: 'Montserrat';
+    margin-left: 300px;
+    margin-right: 300px;
+    line-height: 1.8;
+}
+.quote-section {
+    text-align: center;
+    margin-top: 90px;
+    color: rgb(211, 211, 27);
+    font-size: 75px; 
+}
+.quote-description p{
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(211, 211, 27);
+    font-size: 20px;
+    font-weight: 1000;
+    font-style: italic;
+    font-family: 'Whisper';
+    margin-left: 150px;
+    margin-right: 150px;
+    line-height: 1.8;
+}
+.social-media-section{
+    margin-top: 100px;
+    width: 100%;
+    height: 300px;
+    background-color:lightgrey
+}
+
+.social-media-section nav a img{
+    width: 21px;
+    height: 21px;
+    margin-left: 680px;
+    margin-top: 20px;
+}
+#caligary-img{
+    margin-top: 30px;
+    margin-left: 590px;
+    width: 200px;
+    height: 200px;
+}
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(22, 2, 2);
+}
+.footer-text h3{
+    color: white;
+    padding-left: 100px;
+    padding-top: 100px;
+    font-family: 'Montserrat';
+    color: white;
+    span{
+        padding-left: 20px;
+    }
+}
+
+.footer-text h3 :hover{
+    color:  rgb(192, 192, 46);
+    transition: 0.3s;
+}

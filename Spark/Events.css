@@ -1,0 +1,232 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+.header{
+    font-family: 'Grey Qo';
+    font-size: 30px;
+}
+.header-contents{
+    background-color: rgb(59, 57, 57);
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.nav{
+    display: flex;
+    padding-right: 250px;
+    padding-top: 30px; 
+}
+.nav-contents{
+    padding-left: 30px;    
+}
+.nav-contents a{
+    text-decoration: none;
+    color:white;
+}
+.nav-contents a:hover{
+    color: rgb(192, 192, 46);
+    transition: 0.3s;
+}
+.meeting-button{
+    color: white;
+}
+.header-nav .meeting-button a{
+    text-decoration: none;
+    position: relative;
+    left: 150px;
+    color: white;
+    border: 2px;
+    border-style: double;
+    border-color: white;
+    padding: 10px 43px;
+}
+.header-nav .meeting-button a:hover{
+    background-color: white;
+    color: black;
+    transition: 0.9s;
+}
+.main-body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 50px;
+}
+.main-body-bg-image img{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    width: 100%;
+}
+.bg-image-description h1 {
+    position: absolute;
+    bottom: 350px;
+    left: 200px;
+    font-size: 60px;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 300px;
+}
+.bg-image-description p{
+    position: absolute;
+    bottom: 300px;
+    left: 350px;
+    font-size: 25px;
+    color: white;
+    font-family: 'Montserrat';
+}
+.description{
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 20px;
+}
+.description .heading h3{
+    padding-bottom: 50px;
+    font-family: 'Montserrat';
+    font-size: 30px;
+    text-align: center;
+}
+.description .description1 p{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.conference{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 50px;
+    margin-top: 70px;
+}
+.conference-image img{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    width: 100%;
+    height: 450px;
+}
+.conference-image-description h2 {
+    position: absolute;
+    bottom: -890px;
+    left: 400px;
+    font-size: 60px;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 300px;
+}
+.conference-description{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.description-heading h3{
+padding-top: 500px;
+text-align: center;
+padding-bottom: 30px;
+font-family: 'Montserrat';
+font-size: 30px;
+}
+.description-heading p{
+    font-size: 20px;
+    font-family: 'Montserrat';
+    text-align: center;
+    line-height: 30px;
+}
+.collage{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 80px;
+}
+
+.collage img{
+    flex-basis: 50%;
+    width: 200px;
+    height: 600PX;
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+.summit{
+    width: 100%;
+    position: relative;
+    margin-top: 100px;
+}
+.summit-image img{
+    width: 100%;;
+}
+.summit-image-description h1{
+    position: absolute;
+    left: 400px;
+    bottom: 400px;
+    color: white;
+    font-size: 100px;
+    text-align: center;
+}
+
+.summit-about-heading h3{
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: center;
+    margin-top: 80px;
+    padding-bottom: 30px;
+    font-family: 'Montserrat';
+font-size: 30px;
+}
+.summit-description p{
+    margin-left: 400px;
+    margin-right: 400px;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+.summit-description img{
+    width: auto;
+    height: 600px;
+    padding-top: 80px;
+    padding-left: 300px;
+}
+.social-media-section{
+    margin-top: 100px;
+    width: 100%;
+    height: 300px;
+    background-color:lightgrey
+}
+
+.social-media-section nav a img{
+    width: 21px;
+    height: 21px;
+    margin-left: 680px;
+    margin-top: 20px;
+}
+#caligary-img{
+    margin-top: 30px;
+    margin-left: 590px;
+    width: 200px;
+    height: 200px;
+}
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(22, 2, 2);
+}
+.footer-text h3{
+    color: white;
+    padding-left: 100px;
+    padding-top: 100px;
+    font-family: 'Montserrat';
+    color: white;
+    span{
+        padding-left: 20px;
+    }
+}
+
+.footer-text h3 :hover{
+    color:  rgb(192, 192, 46);
+    transition: 0.3s;
+}

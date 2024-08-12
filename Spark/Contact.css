@@ -1,0 +1,193 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+.header{
+    font-family: 'Grey Qo';
+    font-size: 30px;
+}
+.header-contents{
+    background-color: rgb(59, 57, 57);
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.nav{
+    display: flex;
+    padding-right: 250px;
+    padding-top: 30px; 
+}
+.nav-contents{
+    padding-left: 30px;    
+}
+.nav-contents a{
+    text-decoration: none;
+    color:white;
+}
+.nav-contents a:hover{
+    color: rgb(192, 192, 46);
+    transition: 0.3s;
+}
+.meeting-button{
+    color: white;
+}
+#form #submit{
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.header-nav .meeting-button a{
+    text-decoration: none;
+    position: relative;
+    left: 150px;
+    color: white;
+    border: 2px;
+    border-style: double;
+    border-color: white;
+    padding: 10px 43px;
+}
+.header-nav .meeting-button a:hover{
+    background-color: white;
+    color: black;
+    transition: 0.9s;
+}
+.main-body{
+    margin: 0;
+    padding: 0;
+    width: 100%;        
+}
+.main-body-bg-image img{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    width: 100%;    
+}
+.bg-image-description h1 {
+    position: absolute;
+    bottom: 350px;
+    left: 200px;
+    font-size: 60px;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 300px;
+}
+.bg-image-description p{
+    position: absolute;
+    bottom: 300px;
+    left: 350px;
+    font-size: 25px;
+    color: white;
+    font-family: 'Montserrat';
+}
+.address-section{
+    margin-top: 50px;
+    font-family: 'Montserrat';
+}
+.h3-content h3{
+    margin-left: 500px;
+    margin-right: 500px;
+    
+}
+.address-content p{
+    margin-top: 30px;
+    margin-left: 430px;
+    margin-right: 300px;
+    line-height: 30px;
+}
+#form{
+    width: 300px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;    
+    font-size: 12px;
+}
+#form h1{
+    text-align: center;
+    font-family: 'Montserrat';
+    padding-bottom: 50px;
+}
+#form button{
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    border: none;
+    border-bottom: 4px;
+}
+.input-control{
+    display: flex;
+    flex-direction: column;
+}
+.input-control label{
+    font-family: 'Montserrat';
+    padding-top: 50px;
+}
+.input-control input{
+    border: 0.9px solid black;
+    border-radius: 4px;
+    display: block;
+    font-size: 12px;
+    padding: 10px;
+    width: 100%;
+}
+.input-control #name-error{
+    color: red;
+}
+.input-control #email-error{
+    color: red;
+}
+.input-control #message-error{
+    color: red;
+}
+.form button{
+    padding-top: 50px;
+}
+.social-media-section{
+    margin-top: 100px;
+    width: 100%;
+    height: 300px;
+    background-color:lightgrey
+}
+
+.social-media-section nav a img{
+    width: 21px;
+    height: 21px;
+    margin-left: 680px;
+    margin-top: 20px;
+}
+#caligary-img{
+    margin-top: 30px;
+    margin-left: 590px;
+    width: 200px;
+    height: 200px;
+}
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(22, 2, 2);
+}
+.footer-text h3{
+    color: white;
+    padding-left: 100px;
+    padding-top: 100px;
+    font-family: 'Montserrat';
+    color: white;
+    span{
+        padding-left: 20px;
+    }
+}
+
+.footer-text h3 :hover{
+    color:  rgb(192, 192, 46);
+    transition: 0.3s;
+}
+
+.container{
+    width: 50%;
+    height: 70%;    
+    justify-content: center;
+    margin-left: 400px;
+    border-radius: 10px;
+}
